@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailywayRouteFinder", "RailywayRouteFinder\RailywayRouteFinder.csproj", "{00CB61CF-D96A-42EE-90BC-0FF15BF6C0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayRouteUnitTest", "RailwayRouteUnitTest\RailwayRouteUnitTest.csproj", "{A016978F-95FC-4BC7-8BD5-0405D15AB622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00CB61CF-D96A-42EE-90BC-0FF15BF6C0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CB61CF-D96A-42EE-90BC-0FF15BF6C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CB61CF-D96A-42EE-90BC-0FF15BF6C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CB61CF-D96A-42EE-90BC-0FF15BF6C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A016978F-95FC-4BC7-8BD5-0405D15AB622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A016978F-95FC-4BC7-8BD5-0405D15AB622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A016978F-95FC-4BC7-8BD5-0405D15AB622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A016978F-95FC-4BC7-8BD5-0405D15AB622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
