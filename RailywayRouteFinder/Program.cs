@@ -10,10 +10,16 @@ namespace RailywayRouteFinder
     {
         static void Main(string[] args)
         {
-            BluePrint lBluePrint = new BluePrint( args[0] );
-            Conductor lConductor = new Conductor( lBluePrint );
+            if ( args.Count() >= 1 )
+            {
+                BluePrint lBluePrint = new BluePrint( args[0] );
+                Conductor lConductor = new Conductor( lBluePrint );
 
-            lConductor.askQuestions();
+                lConductor.askQuestions();
+            }
+            else
+                Console.WriteLine( "Incorrect number of arguments specified" );
+                
 
             Console.Read(); 
         }
