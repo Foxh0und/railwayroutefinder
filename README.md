@@ -97,7 +97,7 @@ If Visual Studio is desired, then the solution must be opened, and the file plac
 Two input files can be found inside the root directory under the folder "Input Files", "ThoughtWorksInput.txt" which are the ThoughtWorks railway specification and questions, as well as "testinput.txt", containing the input required for the unit tests.
 
 ### Future Work:
-1.	Investigate C# 7's new pattern matching features. The function questionParser in BluePrint uses a relatively long if else chain, however, the new C# features may be able to mitigate this and provide the ability to better write it with a case statement.
+1.Investigate C# 7's new pattern matching features. The function questionParser in BluePrint uses a relatively long if else chain, however, the new C# features may be able to mitigate this and provide the ability to better write it with a case statement.
 
 ### References
 - [1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to algorithms. Cambridge, MA: The MIT Press, 2014.
