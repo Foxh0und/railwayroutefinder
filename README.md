@@ -84,5 +84,3 @@ Two input files can be found inside the root directory under the folder "Input F
 ### References
 - [1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to algorithms. Cambridge, MA: The MIT Press, 2014.
 - [2] “Dijkstra's algorithm,” Wikipedia, 26-May-2017. [Online]. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 02-Jun-2017].
-
-The source code can be found [here](https://github.com/Foxh0und/railwayroutefinder).
