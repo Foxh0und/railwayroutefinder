@@ -1,34 +1,16 @@
+---
+layout: post
+title: "Railway Route Finder"
+description: "Thomas"
+tag: Travel
+---
+
 ## Railway Route Finder
 
 ### Problem Description
 The local commuter railroad services a number of towns in Kiwiland. Because of monetary concerns, all of the tracks are 'one­way.' That is, a route from Kaitaia to Invercargill does not imply the existence of a route from Invercargill to Kaitaia. In fact, even if both of these routes do happen to exist, they are distinct and are not necessarily the same distance!
 
 The purpose of this problem is to help the railroad provide its customers with information about the routes. In particular, you will compute the distance along a certain route, the number of different routes between two towns, and the shortest route between two towns.
-
-### Analysis and Design
-The solution was completed using an OO design and features a number of custom data structures.
-
-#### Classes
-
-- Track
-	  Each track represents both a destination, and a distance. To avoid coupling issues, it does not contain a reference to a Station object, only a char to represent the destination's station.
-
-- Station
-	  Each station contains a character label, and maintains a list of tracks which represent possible destinations to which it links.
-
-- Railway
-	  A railway is the data structure representing the graph. It maintains a list of stations, has the ability to create more stations, and create more tracks.
-
-- Route
- 	  A route contains a list of tracks, an or## Railway Route Finder
-
-### Problem Description
-The local commuter railroad services a number of towns in Kiwiland. Because of monetary concerns, all of the tracks are 'one­way.' That is, a route from Kaitaia to Invercargill does not imply the existence of a route from Invercargill to Kaitaia. In fact, even if both of these routes do happen to exist, they are distinct and are not necessarily the same distance!
-
-The purpose of this problem is to help the railroad provide its customers with information about the routes. In particular, you will compute the distance along a certain route, the number of different routes between two towns, and the shortest route between two towns.
-
-### Analysis and Design
-The solution was completed using an OO design and features a number of custom data structures.
 
 #### Classes
 
@@ -102,3 +84,5 @@ Two input files can be found inside the root directory under the folder "Input F
 ### References
 - [1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to algorithms. Cambridge, MA: The MIT Press, 2014.
 - [2] “Dijkstra's algorithm,” Wikipedia, 26-May-2017. [Online]. Available: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. [Accessed: 02-Jun-2017].
+
+The source code can be found [here](https://github.com/Foxh0und/railwayroutefinder).
