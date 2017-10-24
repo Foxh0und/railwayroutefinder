@@ -1,10 +1,3 @@
----
-layout: post
-title: "Railway Route Finder"
-description: "Thomas"
-tag: Travel
----
-
 ## Railway Route Finder
 
 ### Problem Description
